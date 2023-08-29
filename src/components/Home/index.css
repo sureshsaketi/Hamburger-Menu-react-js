@@ -1,0 +1,18 @@
+.home-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-home-image {
+    display: none;
+    width: 80%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .desktop-home-image {
+    display: none;
+    width: 80%;
+  }
+}
